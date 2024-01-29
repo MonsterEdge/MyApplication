@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/text_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasta_adi"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_hasta_adi"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="text"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasta_soyadi"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_hasta_soyadi"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="text"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasta_tc"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_hasta_tc"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="number"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasta_dogum"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_hasta_dogum"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="date"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasta_cinsiyet"
+        android:textSize="@dimen/text_size"/>
+
+    <RadioGroup
+        android:id="@+id/rg_hasta_cinsiyet"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_hasta_erkek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/erkek"/>
+
+        <RadioButton
+            android:id="@+id/rb_hasta_kadin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kadin"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasta_kan"
+        android:textSize="@dimen/text_size"/>
+
+    <Spinner
+        android:id="@+id/sp_hasta_kan"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:entries="@array/kan_gruplari"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tesis_adi"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_tesis_adi"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="text"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tesis_adres"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_tesis_adres"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="text"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tesis_telefon"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_tesis_telefon"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="phone"
+        android:padding="@dimen/edit_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nakil_tarih"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/et_nakil_tarih"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:hint="@string/bilgileri_giriniz"
+        android:inputType="datetime"
+        android:padding="@dimen/edit_padding"/>
+
+    <Button
+        android:id="@+id/btn_kaydet"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/kaydet"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/button_margin"/>
+
+</LinearLayout>
+

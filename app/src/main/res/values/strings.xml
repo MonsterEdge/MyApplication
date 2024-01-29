@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array
+        name="kan_gruplari">
+        <item>A Rh(+)</item>
+        <item>A Rh(-)</item>
+        <item>B Rh(+)</item>
+        <item>B Rh(-)</item>
+        <item>0 Rh(+)</item>
+        <item>0 Rh(-)</item>
+        <item>AB Rh(+)</item>
+        <item>AB Rh(-)</item>
+    </string-array>
+
+    <!-- Aşağıdaki string değerlerini, daha iyi bir okunabilirlik için alfabetik sıraya göre düzenledim. -->
+    <string name="bilgileri_giriniz">Bilgileri Giriniz</string>
+    <string name="erkek">Erkek</string>
+    <string name="hasta_adi">Hasta Adı</string>
+    <string name="hasta_cinsiyet">Cinsiyet</string>
+    <string name="hasta_dogum">Doğum Tarihi</string>
+    <string name="hasta_kan">Kan Grubu</string>
+    <string name="hasta_soyadi">Hasta Soyadı</string>
+    <string name="hasta_tc">TC Kimlik No</string>
+    <string name="kadin">Kadın</string>
+    <string name="kaydet">KAYDET</string>
+    <string name="nakil_tarih">Nakil Tarihi</string>
+    <string name="tesis_adi">Tesis Adı</string>
+    <string name="tesis_adres">Tesis Adresi</string> <!-- Bu değeri, tesis adı ile aynı olmaması için değiştirdim. -->
+    <string name="tesis_telefon">Dr Telefonu</string>
+</resources>

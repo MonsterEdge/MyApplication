@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_margin">8dp</dimen>
+    <dimen name="edit_width">match_parent</dimen>
+    <dimen name="edit_height">wrap_content</dimen>
+    <dimen name="edit_padding">4dp</dimen>
+    <dimen name="button_width">wrap_content</dimen>
+    <dimen name="button_height">100dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+</resources>
