@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Hasta ismini girmek için EditText bileşeni -->
+    <EditText
+        android:id="@+id/patient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_name"
+        android:inputType="textPersonName" />
+
+    <!-- Hasta soyismini girmek için EditText bileşeni -->
+    <EditText
+        android:id="@+id/patient_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_surname"
+        android:inputType="textPersonName" />
+
+    <!-- Hasta yaşını girmek için EditText bileşeni -->
+    <EditText
+        android:id="@+id/patient_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_age"
+        android:inputType="number" />
+
+    <!-- Hasta cinsiyetini seçmek için Spinner bileşeni -->
+    <Spinner
+        android:id="@+id/patient_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender_array" />
+
+    <!-- Hasta kan grubunu seçmek için Spinner bileşeni -->
+    <Spinner
+        android:id="@+id/patient_blood_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/blood_type_array" />
+
+    <!-- Hasta hastalığını girmek için EditText bileşeni -->
+    <EditText
+        android:id="@+id/patient_disease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_disease"
+        android:inputType="text" />
+
+    <!-- Hasta nakil durumunu seçmek için RadioGroup ve RadioButton bileşenleri -->
+    <RadioGroup
+        android:id="@+id/patient_transfer_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/patient_transfer_status_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_transfer_status_yes" />
+
+        <RadioButton
+            android:id="@+id/patient_transfer_status_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_transfer_status_no" />
+    </RadioGroup>
+
+    <!-- Bilgileri kaydetmek için Button bileşeni -->
+    <Button
+        android:id="@+id/patient_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_save_button" />
+</LinearLayout>
